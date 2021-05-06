@@ -1,0 +1,36 @@
+body{
+	height: 1000px;
+}
+#cart{	
+	width: 1000px;
+	margin: 0 auto;
+}
+.item{
+	width: 234px;
+	height: 283px;
+	border: solid 1px black;
+}
+.item img{
+	width: 150px;
+}
+#cart img{
+	width: 60px;
+	height: 60px;
+}
+#cart div{
+	display: flex;
+	align-items: center;
+	border-bottom: solid 1px black;
+}
+#cart button {
+	height: 1.5em;
+}
+
+.catalog{
+	margin: 0 auto;
+	width: 710px;
+	min-height: 100%;
+}
+.catalog div{
+	float:left;
+}
